@@ -6,7 +6,7 @@
 }
 .home_shop_info{
     height: 30px;
-    font-size: .95rem;
+    font-size: .8rem;
     font-weight: 400;
     color: #999;
     line-height: 30px;
@@ -15,7 +15,7 @@
     height: 100px;
 }
 .home_header_nav span{
-    font-size: .95rem;
+    font-size: .8rem;
 }
 .home_logo img{
     width: 100%;
@@ -37,10 +37,10 @@
     box-shadow: none;
 }
 
-.search .fa-search {
+.search .bi-search {
     position: absolute;
-    top: 13px;
-    left: 16px
+    top: 10px;
+    left: 15px
 }
 
 .search button {

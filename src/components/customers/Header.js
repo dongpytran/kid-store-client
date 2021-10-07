@@ -16,6 +16,7 @@ import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 import PermIdentityOutlinedIcon from '@material-ui/icons/PermIdentityOutlined';
 import ShoppingCartSharpIcon from '@material-ui/icons/ShoppingCartSharp';
 
+
 function Header() {
     return (
         <div className="Header">
@@ -41,9 +42,9 @@ function Header() {
                 </div>
                 <div className="col-md-5">
                     <div className="search">
-                        <i className="fa fa-search"></i>
-                        <input type="text" className="form-control" placeholder="Keyword ..." />
-                        <button className="btn btn-secondary">Search</button> </div>
+                        <i class="bi bi-search"></i>
+                        <input type="text" className="form-control" placeholder="Keyword ..." style={{fontSize: '.8rem'}}/>
+                        <button className="btn btn-secondary"><span>Search</span></button> </div>
                     </div>
                 <div className="col-md-2 check_order">
                     <button className="btn btn-secondary btn_check_order">
@@ -62,14 +63,14 @@ function Header() {
                         <div className="col-md-12">
                             <div className="row">
                                 <div className="col-md-5 flex-end">
-                                    <button className="btn btn-secondary"><Link to="/SingIn" style={{fontSize: '.9rem', textDecoration: 'none', color: '#fff'}}>Đăng nhập</Link></button>
+                                    <button className="btn btn-secondary"><Link to="/SingIn" style={{fontSize: '.8rem', textDecoration: 'none', color: '#fff'}}>Đăng nhập</Link></button>
                                 </div>
                                 <div className="col-md-5">
-                                    <button className="btn btn-secondary"><Link to="/SingUp" style={{fontSize: '.9rem', textDecoration: 'none', color: '#fff'}}>Đăng ký</Link></button>
+                                    <button className="btn btn-secondary"><Link to="/SingUp" style={{fontSize: '.8rem', textDecoration: 'none', color: '#fff'}}>Đăng ký</Link></button>
                                 </div>
                                 <div className="col-md-2">
                                     <div className="cart_circle">
-                                        <ShoppingCartSharpIcon style={{position: 'absolute', right:'8px', top: '8px', color: '#ff8f89'}} />
+                                        <ShoppingCartSharpIcon style={{position: 'absolute', right:'7px', top: '8px', color: '#ff8f89'}} />
                                     </div>
                                 </div>
                             </div>
