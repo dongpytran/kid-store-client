@@ -1,0 +1,84 @@
+.Header{
+    width: 100%;
+}
+.home_banner{
+    height: 80px;
+}
+.home_shop_info{
+    height: 30px;
+    font-size: .95rem;
+    font-weight: 400;
+    color: #999;
+    line-height: 30px;
+}
+.home_header_nav{
+    height: 100px;
+}
+.home_header_nav span{
+    font-size: .95rem;
+}
+.home_logo img{
+    width: 100%;
+    height: 46%;
+    margin-top: 26px;
+}
+.search {
+    position: relative;
+    top:30px;
+}
+.search input {
+    width: 370px;
+    height: 40px;
+    text-indent: 25px;
+    outline: none;
+}
+
+.search input:focus {
+    box-shadow: none;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 13px;
+    left: 16px
+}
+
+.search button {
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    background: #fff;
+    color: #000;
+    outline: none;
+}
+
+.check_order{
+    line-height: 100px;
+}
+.btn_check_order{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    outline: none;
+}
+.home_login{
+    width: 100%;
+    line-height: 100px;
+}
+.home_login button{
+    width: 95px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+.cart_circle{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 100%;
+    border: solid 1px #ff8f89;
+    top: 30px;
+    cursor: pointer;
+}
